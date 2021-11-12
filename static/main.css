@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background: #A5D6A7;
+}
+
+section:nth-child(2) {
+    background: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 44px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: white;
+}
+
+li {
+    margin-top: 15px;
+}
+
+footer {
+    color: white;
+}
